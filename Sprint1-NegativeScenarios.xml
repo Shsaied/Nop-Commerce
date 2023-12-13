@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Check Registrationwith valid data">
+        <classes>
+            <class name="testcases.TC01_Registration">
+                <methods>
+                    <include name="registerNewUserWithValiddata_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Add successfully Order">
+        <classes>
+            <class name="testcases.TC12_Orders">
+                <methods>
+                    <include name="createSuccessfullyOrder_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

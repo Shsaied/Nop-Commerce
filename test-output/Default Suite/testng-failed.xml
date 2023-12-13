@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Nop-Commerce(failed)">
+    <classes>
+      <class name="testcases.TC12_Orders">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="createSuccessfullyOrder"/>
+        </methods>
+      </class> <!-- testcases.TC12_Orders -->
+    </classes>
+  </test> <!-- Nop-Commerce(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
